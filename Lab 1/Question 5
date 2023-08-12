@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class lab2q5
 {
     public static void main(String arg[])
