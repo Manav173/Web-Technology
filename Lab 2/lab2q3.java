@@ -1,0 +1,33 @@
+/*  WAP  to  find  the  largest  among  three  numbers  x,  y,  and  z.  You  should  use  if-then-else 
+construct in Java. */
+
+import java.util.Scanner;
+
+public class lab2q3
+{
+    public static void main(String args[])
+    {
+        System.out.println("Enter three numbers");
+        Scanner sc=new Scanner(System.in);
+        int x=sc.nextInt();
+        int y=sc.nextInt();
+        int z=sc.nextInt();
+        if(x>y && x>z)
+        {
+            System.out.println("The largest number is = " + x);
+        }
+        else if(y>x && y>z)
+        {
+            System.out.println("The largest number is = " + y);
+        }
+        else if(z>x && z>y)
+        {
+            System.out.println("The largest number is = " + z);
+        }
+        else
+        {
+            System.out.println("All three numbers are equal");
+        }
+        sc.close();
+    }
+}
